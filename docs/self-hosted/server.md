@@ -52,7 +52,8 @@ Edit the `.env` file and set the environment variables.
 
 | Key | Explanation | Example |
 | --- | --- | --- |
-| DATABASE_URL | The database URL you copied from PlanetScale | mysql://.... |
+| POSTGRES_PASSWORD | Generate some password to be used for postgres authentication | (some string) |
+| DATABASE_URL | Make sure this contains the POSTGRES_PASSWORD | postgresql://niekform:{POSTGRES_PASSWORD}@localhost:5432/niekform?schema=public |
 | EMAIL_FROM | The email address you want to send email from | niek@example.com |
 | EMAIL_SERVER_USER | Your email server user | apikey (for sendgrid) |
 | EMAIL_SERVER_PASSWORD | Your email server password | SG.abcdefghijklmnopqrstuvwxyz |
@@ -60,7 +61,7 @@ Edit the `.env` file and set the environment variables.
 | EMAIL_SERVER_PORT | Email server port | 465, 587 |
 | NEXT_PUBLIC_SITE_URL | The URL of your site | https://niekform.vercel.app |
 | NEXTAUTH_SECRET | A random string of characters | any random string |
-| DATABASE_PROVIDER | The database provider (e.g. mysql), make sure this is the same aws the one you set in your `prisma/schema.prisma` file | mysql/postgres |
+| DATABASE_PROVIDER | The database provider (e.g. postgres), make sure this is the same as the one you set in your `prisma/schema.prisma` file | postgres/mysql |
 
 ## Installing docker & docker-compose
 
