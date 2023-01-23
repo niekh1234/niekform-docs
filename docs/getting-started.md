@@ -19,4 +19,4 @@ You can either install NiekForm on your own server, or you can self manage using
 <p class="text-xs">(I'm started to believe my obsession with the Matrix is getting out of hand)</p>
 
 - [Self hosted](/docs/self-hosted/prerequisites)
-- [Self managed](/docs/self-managed/prerequisites)
+- [Self managed](/docs/self-managed/intro)
