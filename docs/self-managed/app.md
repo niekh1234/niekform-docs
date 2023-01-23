@@ -24,7 +24,7 @@ Make sure you enter the following environment variables:
 | EMAIL_SERVER_PORT | Email server port | 465, 587 |
 | NEXT_PUBLIC_SITE_URL | The URL of your site | https://niekform.vercel.app |
 | NEXTAUTH_SECRET | A random string of characters | any random string |
-| DATABASE_PROVIDER | The database provider (e.g. mysql), make sure this is the same aws the one you set in your `prisma/schema.prisma` file | mysql/postgres |
+| DATABASE_PROVIDER | The database provider (e.g. mysql), make sure this is the same as the one you set in your `prisma/schema.prisma` file | mysql/postgres |
 
 ### Deploying
 
