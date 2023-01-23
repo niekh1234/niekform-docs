@@ -12,7 +12,7 @@ export default function Home(): JSX.Element {
       description="Description will go into a meta tag in <head />"
     >
       <main className="px-4 py-16">
-        <section>
+        <section className="max-w-4xl mx-auto">
           <div className="flex flex-col items-center text-center">
             <Logo size={32}></Logo>
             <h3 className="font-bold">Manage your forms like a boss.</h3>
