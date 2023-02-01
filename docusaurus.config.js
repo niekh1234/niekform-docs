@@ -41,6 +41,12 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
       }),
     ],
   ],
@@ -61,6 +67,7 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/niekh1234/niekform',
             label: 'GitHub',
