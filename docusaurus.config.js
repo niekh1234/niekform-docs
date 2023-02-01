@@ -1,6 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+require('dotenv').config();
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -125,6 +127,15 @@ const config = {
           return postcssOptions;
         },
       };
+    },
+  ],
+
+  scripts: [
+    {
+      src: process.env.ANALYTICS_HOST,
+      async: true,
+      defer: true,
+      'data-website-id': process.env.ANALYTICS_ID,
     },
   ],
 };
