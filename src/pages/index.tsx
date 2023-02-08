@@ -21,18 +21,27 @@ export default function Home(): JSX.Element {
               integrate everywhere.
             </p>
 
-            <Link
-              href="/docs/intro"
-              className="px-6 py-2 mt-2 text-lg text-white border-none rounded md:py-3 md:px-8 bg-emerald-500 hover:no-underline hover:text-white hover:bg-emerald-400"
-            >
-              Get started
-            </Link>
+            <div className="flex flex-col w-full mt-2 space-y-2 md:w-auto md:flex-row md:space-y-0 md:space-x-4">
+              <Link
+                href="/docs/intro"
+                className="px-6 py-2 text-lg text-white border-none rounded md:w-auto md:py-3 md:px-8 bg-emerald-500 hover:no-underline hover:text-white hover:bg-emerald-400"
+              >
+                Get started
+              </Link>
+
+              <Link
+                href="https://demo.niekform.com"
+                className="px-6 py-2 text-lg text-white rounded md:py-3 md:px-8 hover:no-underline hover:text-white hover:bg-emerald-400"
+              >
+                View demo
+              </Link>
+            </div>
           </div>
           <video
             className="object-contain mt-8"
             width="100%"
             height="100%"
-            src="https://user-images.githubusercontent.com/34717999/212096259-0508b13c-b9bf-409b-a1fa-3941a8fc2faf.mov"
+            src="https://user-images.githubusercontent.com/34717999/217659030-f0eafb04-f2ec-4f46-ad5a-1e8b460befca.mp4"
             controls
           ></video>
         </section>
