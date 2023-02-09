@@ -31,7 +31,7 @@ export default function Home(): JSX.Element {
 
               <Link
                 href="https://demo.niekform.com"
-                className="px-6 py-2 text-lg text-white rounded md:py-3 md:px-8 hover:no-underline hover:text-white hover:bg-emerald-400"
+                className="px-6 py-2 text-lg text-gray-600 rounded dark:text-white md:py-3 md:px-8 hover:text-white hover:no-underline hover:bg-emerald-400"
               >
                 View demo
               </Link>
