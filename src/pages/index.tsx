@@ -41,7 +41,7 @@ export default function Home(): JSX.Element {
             className="object-contain mt-8"
             width="100%"
             height="100%"
-            src="https://user-images.githubusercontent.com/34717999/217659030-f0eafb04-f2ec-4f46-ad5a-1e8b460befca.mp4"
+            src="https://user-images.githubusercontent.com/34717999/217865581-75a38fb4-0881-4ad9-81a0-3beb00243b12.mp4"
             controls
           ></video>
         </section>
