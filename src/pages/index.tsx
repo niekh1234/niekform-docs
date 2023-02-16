@@ -8,7 +8,7 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Open source headless for builder - ${siteConfig.title}`}
+      title={`Open source headless form builder for developers - ${siteConfig.title}`}
       description="Welcome to NiekForm, a next generation open-source form builder for developers that can integrate everywhere."
     >
       <main className="px-4 py-16">
