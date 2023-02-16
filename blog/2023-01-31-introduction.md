@@ -42,15 +42,21 @@ hide_table_of_contents: false
 
 # NiekForm: A Comprehensive, Open Source Form Builder for Developers
 
-As a developer, managing forms always happens with a love-hate relationship. You love seeing new submissions and interacting with your users - seeing something you built come to life. But integrating forms? That's a whole different story. Forms are essential for gathering information from users and provide a simple and effective way to collect data. However, creating a form that is both functional and visually appealing can be a time-consuming and complex task. This is where NiekForm comes in as a comprehensive solution for all your form building needs.
+As a developer, managing forms always happens with a love-hate relationship. You love seeing new submissions and interacting with your users - seeing something you built come to life. But integrating forms? That's a whole different story. Forms are essential for gathering information from users and provide a simple and effective way to collect data. However, setting up a server and integrating a form can be a time-consuming and frustrating process. This is where NiekForm comes in.
 
-NiekForm is an open source headless form builder that is specifically designed for developers. With its cutting-edge technology and versatility, NiekForm offers a range of features and benefits to make form building a seamless process.
+NiekForm is an open source headless form builder that is specifically designed for developers. With its cutting-edge technology on the latest stack (React, Next, Tailwind, Prisma) and versatility, NiekForm offers a range of features and benefits to make form building a seamless process.
 
 ## How NiekForm Works
 
-The process of creating a form with NiekForm is straightforward and intuitive. You start by using the admin interface to design your form. This interface is user-friendly and offers a wide range of customization options, allowing you to create forms that match your specific needs.
+The process of creating a form with NiekForm is straightforward and intuitive. You start by using the admin interface to design your form. This interface is user-friendly and offers a wide range of customization options, allowing you to create forms that match your specific needs. We currently support the following form elements:
 
-Once your form is created, you can easily copy and integrate it into any web platform you like. NiekForm is API-based, meaning that the forms you create can be shaped to fit any desired structure. This level of customization gives developers the freedom to get creative with their forms and tailor them to specific needs.
+- Text input
+- Text area
+- Email
+- Number
+- Checkbox
+
+Once your form is created, you can easily copy and integrate it into any web platform you like. NiekForm is API-based, meaning that the forms you create can be shaped to fit any desired structure. This level of customization gives developers the freedom to get creative with their forms and tailor them to specific needs. When a user submits a form, the data is sent to the NiekForm API, which then processes the data and stores it in a database. You can then view or export the data as needed.
 
 ## Self-Hosting or self-managing
 

@@ -44,7 +44,7 @@ image: https://i.imgur.com/mErPwqL.png
 hide_table_of_contents: false
 ---
 
-# Protecting Your Forms with NiekForm's Honeypot Technology
+# Protecting web forms with HoneyPots
 
 As a form builder, NiekForm is designed to make it easy for developers to create and implement forms on their websites and applications. However, one of the biggest challenges of working with forms is protecting them from spam. Spam submissions can clog up your form data and make it difficult to find and process legitimate submissions. This is where NiekForm's honeypot technology comes in.
 
