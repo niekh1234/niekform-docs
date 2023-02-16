@@ -5,14 +5,7 @@ type LogoProps = {
 };
 
 const Logo = ({ size = 24 }: LogoProps) => {
-  return (
-    <h3
-      style={{ fontSize: size + 'px' }}
-      className="inline-block font-black text-transparent bg-gradient-to-r bg-clip-text from-emerald-600 to-teal-500 padding-none margin-none"
-    >
-      NiekForm
-    </h3>
-  );
+  return <img src="/img/niekform-logo-sm.png" className="h-16"></img>;
 };
 
 export default Logo;
