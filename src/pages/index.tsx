@@ -22,7 +22,7 @@ export default function Home(): JSX.Element {
               <a href="https://github.com/niekh1234/niekform/releases/tag/v0.2.0">v0.2.0</a> 🎉
             </div>
             <h1 className="max-w-xl mt-2 text-4xl font-black leading-tight lg:text-5xl xl:text-6xl">
-              A solid headless form builder, but open source 🤯
+              The open source form builder for developers 🚀
             </h1>
             <h2 className="max-w-lg text-sm text-gray-600 dark:text-gray-200 md:text-base">
               NiekForm is a next generation open-source form builder for developers that can
